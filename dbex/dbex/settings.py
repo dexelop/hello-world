@@ -15,7 +15,11 @@ SECRET_KEY = 'm)w3ipyqo4)j*17p&igmc(3bc!r%c7+&azjv2=qwx+&2n*0im^'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'tevian2016@gmail.com'
+EMAIL_HOST_PASSWORD = 'tevian20!6'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 
 # Application definition
 
